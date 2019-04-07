@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1539872155 source:c:\users\admin\desktop\iter0\main.cpp
+	<iostream>
+	"pow.h"
+
+1539872081 c:\users\admin\desktop\iter0\pow.h
+	<iostream>
+	<iomanip>
+	<cmath>
+

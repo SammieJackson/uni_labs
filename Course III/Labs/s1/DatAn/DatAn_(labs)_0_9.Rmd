@@ -1,0 +1,332 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+ОМ-3, Бабієнка Іллі
+
+Включаємо усі необхідні бібліотеки
+
+```{r}
+library(psych)
+library(countreg)
+library(corrplot)
+library(qgraph)
+library(TTR)
+library(forecast)
+library(ggplot2)
+```
+
+ЛАБОРАТНОРНА 1
+
+Зчитуємо дані 
+(датасет - статистика онлайн кусрів з платформи edX від Гарварду та МІТа, опис у ворд-файлі)
+
+```{r}
+data <- read.csv("C:/Users/Admin/Desktop/DatAn/edX_course_stats.csv")
+attach(data)
+```
+
+Формуємо нашу вибірку - середній вік осіб, що проходили даний курс.
+
+```{r}
+X <- Median.Age
+X_nmw <- X[!is.na(X)]
+```
+
+Мода
+
+```{r}
+getmoda <- function(v) {
+   uniqv <- unique(v)
+   uniqv[which.max(tabulate(match(v, uniqv)))]
+}
+moda <- getmoda(X_nmw)
+moda
+```
+
+Медіана
+
+```{r}
+median <- median(X, na.rm = TRUE)
+median
+```
+
+Мат-сподівання
+
+```{r}
+mean <- mean(X, na.rm = TRUE)
+mean
+```
+
+Середнє гармонічне
+
+```{r}
+harmonic.mean <- harmonic.mean(X, na.rm = TRUE)
+harmonic.mean
+```
+
+Дисперсія
+
+```{r}
+var <- var(X, na.rm = TRUE)
+var
+```
+
+Стандартне (середньоквадратичне) відхилення
+
+```{r}
+sd <- sd(X, na.rm = TRUE)
+sd
+```
+
+Інтерквартильна широта
+
+```{r}
+IQR <- IQR(X, na.rm = TRUE)
+IQR
+```
+
+Розмах варіації
+
+```{r}
+range <- range(X_nmw)
+range
+```
+
+Графіки (зображення вибірки)
+
+- Ящик з вусами
+
+```{r}
+boxplot(X, horizontal = TRUE)
+```
+
+- Гістограма
+
+```{r}
+hist(X)
+```
+
+- Р-Р plot
+
+```{r}
+m <- mean(X_nmw)
+s <- sd(X_nmw)
+n <- length(X_nmw)
+p <- (1 : n) / n - 0.5 / n
+ggplot(data.frame(X_nmw), main="P-P-plot") + geom_point(aes(x = p, y = sort(pnorm(X_nmw, m, s))))
+```
+
+- Q-Q plot
+
+```{r}
+qqnorm(X)
+qqline(X)
+
+qqplot(X, qchisq(ppoints(length(X)), df = 5),  main="Q-Q-plot")
+```
+
+Перевірка на нормальність
+
+```{r}
+normal <- shapiro.test(X_nmw)
+normal
+```
+
+
+##################################################################
+
+ЛАБОРАТОРНА 2
+
+Той самий датасет.
+Проводимо кореляційний аналіз залежності наступних величин:
+- середньої загальної кількості годин, витрачених на курс (дає уявлення про його об'єм та складність)
+- к-сті постів на форумах курсу (як правило складніші курси спричинюють тіснішу співпрацю, та виникає більше запитань)
+- відсотку осіб з ступінню бакалавра (або вище)
+- відсотку осіб які завершили курс та отримали офіційне підтвердження (як правило на складніших курсах таких людей менше)
+- середня оцінка за курс (чим складніше курс тим нижча).
+
+```{r}
+hours <- Total.Course.Hours..Thousands.
+forum_posts <- X..Posted.in.Forum
+bachelors <- X..Bachelor.s.Degree.or.Higher
+certified <- X..Certified
+grade <- X..Grade.Higher.Than.Zero
+cor <- cor(data.frame(hours, forum_posts, bachelors, certified, grade), use = "complete.obs")
+
+plot(certified, grade)
+```
+
+Кореляційна карта
+
+```{r}
+corrplot.mixed(cor)
+```
+
+Граф кореляцій
+
+```{r}
+qgraph(cor) # layout = "spring"
+```
+
+Матриця кореляцій
+
+```{r}
+cor
+```
+
+Коефіцієнти кореляції
+(для залежності між відсотком осіб що завершили курс та оцінкою
+ми обрали саме ці дві величини, адже з результатів вище можна припустити, що між ними залежність сильніша ніж між іншими парами величин)
+
+- Пірсона
+
+```{r}
+cor(certified, grade, use = "complete.obs", method = "pearson")
+```
+
+- Кендала
+
+```{r}
+cor(certified, grade, use = "complete.obs", method = "kendall")
+```
+
+- Спірмена
+
+```{r}
+cor(certified, grade, use = "complete.obs", method = "spearman")
+```
+
+
+##################################################
+
+ЛАБОРАТОРНА 3
+
+Лінійна регресія
+
+Датасет - статистика посадок літаків з аеропорту Сан-Франциско за 2015 рік.
+Досліджуватимемо залежність між к-стю посадок та загальною перевезеною вагою
+
+```{r}
+data <- read.csv("C:/Users/Admin/Desktop/DatAn/air-traffic-landings-statistics.csv")
+attach(data)
+```
+
+```{r}
+x <- Landing.Count
+y <- Total.Landed.Weight
+plot(x,y)
+```
+
+На графіку гарно розрізняються кілька залежностей - оскільки різні види літаків мають різну середню вантажопідйомність.
+
+```{r}
+z <- lm(x~y)
+residuals <- z$residuals
+summary(z)
+```
+
+Q-Q-графіік для модельних залишків
+
+```{r}
+qqnorm(residuals)
+qqline(residuals)
+```
+
+###############
+
+```{r}
+plot(z)
+```
+
+Гістограма залишків
+
+```{r}
+hist(residuals)
+```
+
+####################
+
+ЛАБОРАТОРНА 4
+
+Проводимо однофакторний дисперсійний аналіз
+(датасет з першої та другої робіт)
+Фактор - сфера, до якої належить предмет курсу
+Змінна, яку досліджуємо - к-сть осіб, які прошйли курс та отримали сертифікат.
+(тоді можна зробити висновок які предмети "популярніші" та на які більший попит)
+
+```{r}
+data <- read.csv("C:/Users/Admin/Desktop/DatAn/edX_course_stats.csv")
+colnames(data) <- c("Institution",
+"Course Number",
+"Launch Date",
+"Course Title",
+"Instructors",
+"Course Subject",
+"Year",
+"Honor Code Certificates",
+"Participants (Course Content Accessed)",
+"Audited > 50%",
+"Certified",
+"% Audited",
+"% Certified",
+"% Certified of > 50% Course Content Accessed",
+"% Played Video",
+"% Posted in Forum",
+"% Grade Higher Than Zero",
+"Total Course Hours (Thousands)",
+"Median Hours for Certification",
+"Median Age",
+"% Male",
+"% Female",
+"% Bachelor\'s Degree or Higher")
+attach(data)
+```
+
+
+```{r}
+our_data <- data[,c("Course Subject","% Certified")]
+```
+
+Зобразимо графік (боксплот), щоб попередьно оцінити наявність залежності (схожостей/відмінностей) в розподілах данних для різних категорій.
+
+
+```{r}
+our_data$`Course Subject` = factor(our_data$`Course Subject`,labels = c("Computer Sc.", "Social sc.", "Humanities", "Technology"))
+
+#ggplot(our_data, aes(x = `Course Subject`, y = `% Certified`)) 
+boxplot(our_data$`% Certified`~our_data$`Course Subject`,data=`Course Subject`,col="light gray",xlab="Course subject area",ylab="Percentage of certified learners")
+
+```
+
+Створюємо модель, за допомогою якої будемо досліджувати залежність між данними.
+
+```{r}
+mod <- lm(our_data$`% Certified`~our_data$`Course Subject`,data = our_data)
+summary(mod)
+```
+
+
+```{r}
+anova(mod)
+```
+
+Бачимо що досягнутий рівень значущості p~10^(-14). Отже при рівні p = 0.05 значущості гіпотезу про рівність середніх відкидаємо.
+
+Отже э зв'язок між предметною сферою та відсотком люедй які повністю пройшли відповідні курси.
+
+Обчилсимо (95%) довірчі інтервали для наших груп (предметів).
+
+```{r}
+confint(mod)
+```
+
+Модельні залишки можна зобразити відносно підігнаних (оціночних - fitted value) значень, щоб перевірити припущення моделі.
+
+```{r}
+mod2 = data.frame(Fitted = fitted(mod), Residuals = resid(mod), Subject = our_data$`Course Subject`)
+ggplot(mod2, aes(Fitted, Residuals, colour = subject)) + geom_point()
+```
+
+Бачимо що розподіли для різних предметних сфер все ж відрізняються, адже дані по-різному розсіяні.
