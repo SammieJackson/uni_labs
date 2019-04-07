@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1490948203 source:c:\users\admin\desktop\labs semester ii\gh i final\gh program 1\interface1.cpp
+	<iostream>
+	<string>
+	"Myclass.h"
+	"Interface1.h"
+
+1490947871 c:\users\admin\desktop\labs semester ii\gh i final\gh class\myclass.h
+	<string>
+
+1490948052 c:\users\admin\desktop\labs semester ii\gh i final\gh program 1\interface1.h
+	<string>
+
+1490948650 source:c:\users\admin\desktop\labs semester ii\gh i final\gh program 1\main.cpp
+	"copy.h"
+	"Interface1.h"
+	<iostream>
+
+1490905566 c:\users\admin\desktop\labs semester ii\copyright\copy.h
+

@@ -1,0 +1,24 @@
+# depslib dependency file v1.0
+1480765618 source:c:\users\admin\desktop\labs i semester\laba 9\help.cpp
+	<iostream>
+	"help.h"
+
+1480760870 c:\users\admin\desktop\labs i semester\laba 9\help.h
+
+1480760964 source:c:\users\admin\desktop\labs i semester\laba 9\main.cpp
+	<iostream>
+	"laba5.h"
+	"laba6.h"
+	"laba7.h"
+	"laba8.h"
+	<string>
+	"help.h"
+
+1480765038 c:\users\admin\desktop\labs i semester\laba 9\laba5\laba5.h
+
+1480765038 c:\users\admin\desktop\labs i semester\laba 9\laba6\laba6.h
+
+1480765038 c:\users\admin\desktop\labs i semester\laba 9\laba7\laba7.h
+
+1480765039 c:\users\admin\desktop\labs i semester\laba 9\laba8\laba8.h
+

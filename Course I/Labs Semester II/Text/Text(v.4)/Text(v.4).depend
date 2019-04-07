@@ -1,0 +1,65 @@
+# depslib dependency file v1.0
+1496601100 source:c:\users\admin\desktop\labs semester ii\text\text(v.4)\interface.cpp
+	<iostream>
+	<string>
+
+1496600895 source:c:\users\admin\desktop\labs semester ii\text\text(v.4)\main.cpp
+	<iostream>
+	<windows.h>
+	"copy.h"
+	"interface.h"
+	"builder.h"
+	"myExceptions.h"
+
+1490905566 c:\users\admin\desktop\labs semester ii\copyright\copy.h
+
+1496597789 c:\users\admin\desktop\labs semester ii\text\text(v.4)\interface.h
+	<string>
+
+1496599285 c:\users\admin\desktop\labs semester ii\text\builder\builder.h
+	"container.h"
+	"lexer.h"
+	<fstream>
+
+1496599285 c:\users\admin\desktop\labs semester ii\text\container\container.h
+	<string>
+
+1496597789 c:\users\admin\desktop\labs semester ii\text\lexer\lexer.h
+	<string>
+
+1496599285 c:\users\admin\desktop\labs semester ii\text\myexceptions\myexceptions.h
+	<exception>
+	<string>
+
+1496597500 source:c:\users\admin\documents\mydocs\uni\course i\labs semester ii\text\text(v.4)\interface.cpp
+	<iostream>
+	<string>
+
+1496597295 source:c:\users\admin\documents\mydocs\uni\course i\labs semester ii\text\text(v.4)\main.cpp
+	<iostream>
+	<windows.h>
+	"copy.h"
+	"interface.h"
+	"builder.h"
+	"myExceptions.h"
+
+1490901966 c:\users\admin\documents\mydocs\uni\course i\labs semester ii\copyright\copy.h
+
+1496594189 c:\users\admin\documents\mydocs\uni\course i\labs semester ii\text\text(v.4)\interface.h
+	<string>
+
+1496595685 c:\users\admin\documents\mydocs\uni\course i\labs semester ii\text\builder\builder.h
+	"container.h"
+	"lexer.h"
+	<fstream>
+
+1496595685 c:\users\admin\documents\mydocs\uni\course i\labs semester ii\text\container\container.h
+	<string>
+
+1496594189 c:\users\admin\documents\mydocs\uni\course i\labs semester ii\text\lexer\lexer.h
+	<string>
+
+1496595685 c:\users\admin\documents\mydocs\uni\course i\labs semester ii\text\myexceptions\myexceptions.h
+	<exception>
+	<string>
+

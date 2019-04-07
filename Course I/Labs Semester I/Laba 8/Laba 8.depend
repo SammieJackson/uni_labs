@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1480178390 source:c:\users\admin\desktop\laba 8\main.cpp
+	"matrix.h"
+	<iostream>
+
+1480178697 c:\users\admin\desktop\laba 8\matrix.h
+
+1480178334 source:c:\users\admin\desktop\laba 8\matrix.cpp
+	"matrix.h"
+	<iostream>
+
+1480703900 source:c:\users\admin\desktop\labs i semester\laba 8\main.cpp
+	"matrix.h"
+	<iostream>
+
+1480703683 c:\users\admin\desktop\labs i semester\laba 8\matrix.h
+
+1480705725 source:c:\users\admin\desktop\labs i semester\laba 8\matrix.cpp
+	"matrix.h"
+	<iostream>
+

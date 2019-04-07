@@ -1,0 +1,58 @@
+# depslib dependency file v1.0
+1476015974 source:c:\users\admin\desktop\c++\labs\lab5\main.cpp
+	<iostream>
+	<math.h>
+	<iomanip>
+
+1480246975 source:c:\users\admin\desktop\lab 5\main.cpp
+	<iostream>
+	<cmath>
+	<iomanip>
+	"func5.h"
+
+1480245569 c:\users\admin\desktop\lab 5\func5.h
+
+1480245757 source:c:\users\admin\desktop\lab 5\func5.cpp
+	"func5.h"
+	<cmath>
+	<iostream>
+	<iomanip>
+
+1480702649 source:c:\users\admin\desktop\labs i semester\lab 5\func5.cpp
+	"func5.h"
+	<cmath>
+	<iostream>
+	<iomanip>
+
+1480702814 c:\users\admin\desktop\labs i semester\lab 5\func5.h
+
+1480702675 source:c:\users\admin\desktop\labs i semester\lab 5\main.cpp
+	<iostream>
+	<cmath>
+	<iomanip>
+	"func5.h"
+
+1481390238 source:c:\users\admin\desktop\labs for karnaukh\lab 5\func5.cpp
+	"func5.h"
+	<cmath>
+	<iostream>
+	<iomanip>
+
+1481389850 c:\users\admin\desktop\labs for karnaukh\lab 5\func5.h
+
+1481390026 source:c:\users\admin\desktop\labs for karnaukh\lab 5\main.cpp
+	<iostream>
+	<cmath>
+	<iomanip>
+	"func5.h"
+	"vyvid.h"
+
+1481390382 c:\users\admin\desktop\labs for karnaukh\lab 5\vyvid.h
+
+1481392346 source:c:\users\admin\desktop\labs for karnaukh\lab 5\vyvid.cpp
+	"func5.h"
+	<cmath>
+	<iostream>
+	<iomanip>
+	"vyvid.h"
+

@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1492535960 source:c:\users\admin\desktop\labs semester ii\greenhouse ii\gh ii finals\gh ii\getmodel.cpp
+	"GetModel.h"
+	<iostream>
+
+1492535960 c:\users\admin\desktop\labs semester ii\greenhouse ii\gh ii finals\gh ii\getmodel.h
+	"Myclass.h"
+
+1492791168 c:\users\admin\desktop\labs semester ii\greenhouse ii\gh ii finals\gh ii\myclass.h
+	<string>
+
+1492791116 source:c:\users\admin\desktop\labs semester ii\greenhouse ii\gh ii finals\gh ii\myclass.cpp
+	<iostream>
+	<cstdlib>
+	<string>
+	<sstream>
+	"Myclass.h"
+

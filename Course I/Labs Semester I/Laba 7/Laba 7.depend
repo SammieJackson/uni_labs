@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1480106689 source:c:\users\admin\desktop\laba 7\main.cpp
+	"array.h"
+	<iostream>
+
+1480106280 c:\users\admin\desktop\laba 7\array.h
+
+1480703431 source:c:\users\admin\desktop\labs i semester\laba 7\main.cpp
+	"array.h"
+	<iostream>
+
+1480703249 c:\users\admin\desktop\labs i semester\laba 7\array.h
+
+1480703276 source:c:\users\admin\desktop\labs i semester\laba 7\array.cpp
+	"array.h"
+	<iostream>
+

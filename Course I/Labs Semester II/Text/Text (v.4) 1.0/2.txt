@@ -1,0 +1,12 @@
+ Name: Hue
+ Surname: Hue
+ Country: UK
+  Race number - 1; participant start number - 2; rank - 1; total time - 279; total missed shots - 1. <- Best time
+
+
+ Name: John
+ Surname: Black
+ Country: Zimbabwe
+  Race number - 1; participant start number - 1; rank - 3; total time - 256; total missed shots - 1. <- Best time
+
+

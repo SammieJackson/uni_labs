@@ -1,0 +1,14 @@
+header: skill
+
+1; Jhon; John; 1; skill; 0;
+1; Jhon; John; 2; skill; 0;
+1; Jhon; John; 3; skill; 0;
+1; Jhon; John; 4; skill; 0;
+1; Jhon; John; 5; skill; 0;
+1; Jhon; John; 6; skill; 0;
+1; Jhon; John; 7; skill; 1;
+1; Jhon; John; 8; skill; 2;
+1; Jhon; John; 9; skill; 3;
+1; Jhon; John; 10; skill; 4;
+
+footer: 1; 10 

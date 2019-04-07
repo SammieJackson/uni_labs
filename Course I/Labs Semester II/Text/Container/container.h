@@ -1,0 +1,119 @@
+//Babiienko I, K-11
+#ifndef CONTAINER_H_INCLUDED
+#define CONTAINER_H_INCLUDED
+#include <string>
+
+class Race
+{
+public:
+    Race(long int rnum, long int snum, long int rang, long int misses, long int overtime, long int ent1, long int ex1, long int ent2, long int ex2, long int penalty);
+    operator std::string() const;
+    Race(const Race&);
+    long int getFireTime() const;
+    long int getMisses() const;
+
+private:
+    const long int RaceNum, StartNum, Rank, Misses, OverallTime, Enter1, Exit1, FireTime1, Enter2, Exit2, FireTime2, PenaltyTime, summFireTime;
+};
+
+class Participant
+{
+public:
+    Participant();
+    Participant(std::string name, std::string surname, std::string country);
+    Participant(const Participant&)=delete;
+    Participant(Participant&&)=delete;
+    Participant& operator=(const Participant&)=delete;
+    Participant& operator=(Participant&&)=delete;
+    ~Participant();
+    void clear();
+    std::string getAllInfo() const;
+    double getMissPercentage() const;
+
+private:
+    struct Node{
+        const long int racenum;
+        Race race;
+        bool hasBestTime;
+        Node *next;
+    };
+    Node *head;
+    int count;
+    std::string name, surname, country;
+    long int TotalMisses=0, TotalRaces=0, BestFireTime;
+    double MissPercentage;
+
+public:
+    class Iterator
+	{
+	  public:
+		Iterator(Node *current=nullptr);
+		virtual Iterator& operator ++(); //move to next node if current node exist; else nothing
+		virtual bool OK() const; // true iff current node exists;
+		operator bool() const; //return OK()
+		void setHasBestTimeToFalse() const;
+
+		operator std::string() const;// throw(out_of_range) if no Node
+	  protected:
+		Node *current;
+	};
+	Iterator find(const long int num) const; //returns iterator on found item; if no - on nullptr
+    Iterator add(const long int rnum, const Race&);//returns iterator to newly created race; if no - on nullptr
+    Iterator begin() const; //Iterator(head)
+};
+
+class Championship
+{
+public:
+    Championship();
+    Championship(const Championship&)=delete;
+    Championship(Championship&&)=delete;
+    Championship& operator=(const Championship&)=delete;
+    Championship& operator=(Championship&&)=delete;
+    ~Championship();
+    void clear();
+
+private:
+    struct Node
+    {
+        std::string personalInfo;//name/surname/country - will be used to decide whether a sportsman exists and to find one
+        Participant p;
+        bool hasBestAim;
+        Node* next;
+    };
+    Node* head;
+    int count;
+    double BestAim=1;
+
+public:
+    class Iterator{
+      public:
+        Iterator(Node *current=nullptr);
+		virtual Iterator& operator ++();
+		virtual bool OK() const;
+		operator bool() const;
+		void setHasBestAimToTrue()const;
+
+        operator std::string() const;	 //all info about current sportsman if exist; else throw(out_of_range)
+        int checkForBestAim(const double aim) const;
+        void setBestAim(double& aim) const;
+
+        double getMissPercentage() const;
+        Participant::Iterator findRace(const long int racenum) const; //throw(out_of_range)
+		Participant::Iterator addRace(const long int rnum, const Race&) const; //throw(out_of_range)
+	  protected:
+		Node *current;
+	};
+
+	Iterator find(const std::string personaInfo) const; //if no - iterator on nullptr
+    Iterator add(const std::string personaInfo, const std::string name, const std::string surname, const std:: string country); //returns iterator to newly created sportsman
+    Iterator begin() const;
+
+    operator std::string() const;
+    void printResults(const std::string &fName) const; //nothrow; if empty string - to console;
+    void findBestAim(); //finds best aim and participants that have it
+    int getCount() const;
+
+};
+
+#endif // CONTAINER_H_INCLUDED

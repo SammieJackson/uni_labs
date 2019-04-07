@@ -1,0 +1,56 @@
+# depslib dependency file v1.0
+1491477238 source:c:\users\admin\desktop\labs semester ii\geometry (v.12)\geometry (public) - final\line.cpp
+	"line.h"
+	<cmath>
+	<float.h>
+	<iostream>
+	"Tostring.h"
+
+1491474560 c:\users\admin\desktop\labs semester ii\geometry (v.12)\geometry (public) - final\line.h
+	"point.h"
+
+1491474560 c:\users\admin\desktop\labs semester ii\geometry (v.12)\geometry (public) - final\point.h
+	<string>
+
+1491474561 c:\users\admin\desktop\labs semester ii\geometry (v.12)\geometry (public) - final\tostring.h
+	<string>
+
+1491930274 source:c:\users\admin\desktop\labs semester ii\geometry (v.12)\geometry (public) - final\main.cpp
+	"interface.h"
+	"copy.h"
+
+1492108737 c:\users\admin\desktop\labs semester ii\geometry (v.12)\geometry (public) - final\quadr.h
+	"segment.h"
+
+1492177794 c:\users\admin\desktop\labs semester ii\geometry (v.12)\geometry (public) - final\segment.h
+	"line.h"
+
+1490905566 c:\users\admin\desktop\labs semester ii\copyright\copy.h
+
+1491477140 source:c:\users\admin\desktop\labs semester ii\geometry (v.12)\geometry (public) - final\point.cpp
+	"point.h"
+	<iostream>
+	<istream>
+	<cmath>
+	"Tostring.h"
+
+1492107693 source:c:\users\admin\desktop\labs semester ii\geometry (v.12)\geometry (public) - final\segment.cpp
+	"segment.h"
+
+1491474561 source:c:\users\admin\desktop\labs semester ii\geometry (v.12)\geometry (public) - final\tostring.cpp
+	<string>
+	<limits>
+	<cstdio>
+	"ToString.h"
+
+1492109032 source:c:\users\admin\desktop\labs semester ii\geometry (v.12)\geometry (public) - final\quadr.cpp
+	<iostream>
+	"quadr.h"
+
+1492109249 source:c:\users\admin\desktop\labs semester ii\geometry (v.12)\geometry (public) - final\interface.cpp
+	<iostream>
+	"interface.h"
+	"quadr.h"
+
+1491928896 c:\users\admin\desktop\labs semester ii\geometry (v.12)\geometry (public) - final\interface.h
+

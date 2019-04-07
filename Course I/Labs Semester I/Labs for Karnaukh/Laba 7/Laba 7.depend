@@ -1,0 +1,36 @@
+# depslib dependency file v1.0
+1480106689 source:c:\users\admin\desktop\laba 7\main.cpp
+	"array.h"
+	<iostream>
+
+1480106280 c:\users\admin\desktop\laba 7\array.h
+
+1480703431 source:c:\users\admin\desktop\labs i semester\laba 7\main.cpp
+	"array.h"
+	<iostream>
+
+1480703249 c:\users\admin\desktop\labs i semester\laba 7\array.h
+
+1480703276 source:c:\users\admin\desktop\labs i semester\laba 7\array.cpp
+	"array.h"
+	<iostream>
+
+1481578133 source:c:\users\admin\desktop\labs for karnaukh\laba 7\array.cpp
+	"array.h"
+	<iostream>
+
+1481394859 c:\users\admin\desktop\labs for karnaukh\laba 7\array.h
+
+1481394566 source:c:\users\admin\desktop\labs for karnaukh\laba 7\main.cpp
+	"copy.h"
+	"array.h"
+	"maxser.h"
+	<iostream>
+
+1480701992 c:\users\admin\desktop\labs for karnaukh\copyright\copy.h
+
+1481394859 c:\users\admin\desktop\labs for karnaukh\laba 7\maxser.h
+
+1481573289 source:c:\users\admin\desktop\labs for karnaukh\laba 7\maxser.cpp
+	"maxser.h"
+

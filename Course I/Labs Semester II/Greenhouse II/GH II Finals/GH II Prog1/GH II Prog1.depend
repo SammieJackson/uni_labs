@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1492536290 source:c:\users\admin\desktop\labs semester ii\greenhouse ii\gh ii finals\gh ii prog1\interface1.cpp
+	<iostream>
+	<string>
+	<sstream>
+	"Myclass.h"
+	"GetModel.h"
+	"Interface1.h"
+
+1492791168 c:\users\admin\desktop\labs semester ii\greenhouse ii\gh ii finals\gh ii\myclass.h
+	<string>
+
+1492535960 c:\users\admin\desktop\labs semester ii\greenhouse ii\gh ii finals\gh ii\getmodel.h
+	"Myclass.h"
+
+1492537114 c:\users\admin\desktop\labs semester ii\greenhouse ii\gh ii finals\gh ii prog1\interface1.h
+	<string>
+
+1492536252 source:c:\users\admin\desktop\labs semester ii\greenhouse ii\gh ii finals\gh ii prog1\main.cpp
+	<iostream>
+	"Interface1.h"
+	"copy.h"
+
+1490905566 c:\users\admin\desktop\labs semester ii\copyright\copy.h
+

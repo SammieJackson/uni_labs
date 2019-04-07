@@ -1,0 +1,121 @@
+# depslib dependency file v1.0
+1494491394 source:c:\users\admin\desktop\labs semester ii\text (vanya)\builder.cpp
+	"builder.h"
+	<cctype>
+	<cstdlib>
+	<stdexcept>
+	"myExceptions.h"
+
+1494490024 c:\users\admin\desktop\labs semester ii\text (vanya)\builder.h
+	"container.h"
+	"lexxer.h"
+	<fstream>
+
+1494490088 c:\users\admin\desktop\labs semester ii\text (vanya)\container.h
+	<string>
+
+1494489962 c:\users\admin\desktop\labs semester ii\text (vanya)\lexxer.h
+	<string>
+
+1494491294 c:\users\admin\desktop\labs semester ii\text (vanya)\myexceptions.h
+	<exception>
+	<string>
+
+1494517296 source:c:\users\admin\desktop\labs semester ii\text (vanya)\container.cpp
+	"container.h"
+	"myExceptions.h"
+	"tostring.h"
+	<iostream>
+	<ostream>
+	<fstream>
+
+1494517230 c:\users\admin\desktop\labs semester ii\text (vanya)\tostring.h
+	<string>
+
+1494491505 source:c:\users\admin\desktop\labs semester ii\text (vanya)\interface.cpp
+	<iostream>
+	<string>
+
+1494491343 source:c:\users\admin\desktop\labs semester ii\text (vanya)\lexxer.cpp
+	"lexxer.h"
+
+1494517334 source:c:\users\admin\desktop\labs semester ii\text (vanya)\myexceptions.cpp
+	"myExceptions.h"
+	"tostring.h"
+
+1494517275 source:c:\users\admin\desktop\labs semester ii\text (vanya)\tostring.cpp
+	<string>
+	<limits>
+	<cstdio>
+	"tostring.h"
+
+1494517444 source:c:\users\admin\desktop\labs semester ii\text (vanya)\main.cpp
+	"interface.h"
+	"builder.h"
+	<windows.h>
+	"myExceptions.h"
+	<iostream>
+
+1494491236 c:\users\admin\desktop\labs semester ii\text (vanya)\interface.h
+	<string>
+
+1494491394 source:c:\users\admin\desktop\labs semester ii\text\text (vanya)\builder.cpp
+	"builder.h"
+	<cctype>
+	<cstdlib>
+	<stdexcept>
+	"myExceptions.h"
+
+1494490024 c:\users\admin\desktop\labs semester ii\text\text (vanya)\builder.h
+	"container.h"
+	"lexxer.h"
+	<fstream>
+
+1494490088 c:\users\admin\desktop\labs semester ii\text\text (vanya)\container.h
+	<string>
+
+1494489962 c:\users\admin\desktop\labs semester ii\text\text (vanya)\lexxer.h
+	<string>
+
+1494491294 c:\users\admin\desktop\labs semester ii\text\text (vanya)\myexceptions.h
+	<exception>
+	<string>
+
+1494517296 source:c:\users\admin\desktop\labs semester ii\text\text (vanya)\container.cpp
+	"container.h"
+	"myExceptions.h"
+	"tostring.h"
+	<iostream>
+	<ostream>
+	<fstream>
+
+1494517230 c:\users\admin\desktop\labs semester ii\text\text (vanya)\tostring.h
+	<string>
+
+1494491505 source:c:\users\admin\desktop\labs semester ii\text\text (vanya)\interface.cpp
+	<iostream>
+	<string>
+
+1494491343 source:c:\users\admin\desktop\labs semester ii\text\text (vanya)\lexxer.cpp
+	"lexxer.h"
+
+1494517444 source:c:\users\admin\desktop\labs semester ii\text\text (vanya)\main.cpp
+	"interface.h"
+	"builder.h"
+	<windows.h>
+	"myExceptions.h"
+	<iostream>
+
+1494491236 c:\users\admin\desktop\labs semester ii\text\text (vanya)\interface.h
+	<string>
+
+1494517334 source:c:\users\admin\desktop\labs semester ii\text\text (vanya)\myexceptions.cpp
+	"myExceptions.h"
+	"tostring.h"
+
+1494517275 source:c:\users\admin\desktop\labs semester ii\text\text (vanya)\tostring.cpp
+	<string>
+	<limits>
+	<cstdio>
+	"tostring.h"
+

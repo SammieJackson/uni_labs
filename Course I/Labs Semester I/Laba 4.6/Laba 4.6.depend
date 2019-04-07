@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1480271574 source:c:\users\admin\desktop\labs i semester\laba 4.6\func4.6.cpp
+	"func4.6.h"
+	<cmath>
+
+1480271174 c:\users\admin\desktop\labs i semester\laba 4.6\func4.6.h
+
+1480271620 source:c:\users\admin\desktop\labs i semester\laba 4.6\main.cpp
+	<iomanip>
+	"func4.6.h"
+	<cmath>
+	<iostream>
+

@@ -1,0 +1,57 @@
+# depslib dependency file v1.0
+1480091414 source:c:\users\admin\desktop\laba 6(2)\laba 6(2)\main.cpp
+	"array.h"
+	<iostream>
+
+1480091408 c:\users\admin\desktop\laba 6(2)\laba 6(2)\array.h
+
+1480105554 source:c:\users\admin\desktop\laba 6\array.cpp
+	"array.h"
+	<iostream>
+
+1480105374 c:\users\admin\desktop\laba 6\array.h
+
+1480105554 source:c:\users\admin\desktop\laba 6\main.cpp
+	"array.h"
+	<iostream>
+
+1480703097 source:c:\users\admin\desktop\labs i semester\laba 6\array.cpp
+	"array.h"
+	<iostream>
+
+1480702898 c:\users\admin\desktop\labs i semester\laba 6\array.h
+
+1480703058 source:c:\users\admin\desktop\labs i semester\laba 6\main.cpp
+	"array.h"
+	<iostream>
+
+1481394385 source:c:\users\admin\desktop\labs for karnaukh\laba 6\main.cpp
+	"copy.h"
+	"array.h"
+	"miniel.h"
+	<iostream>
+
+1481393105 c:\users\admin\desktop\labs for karnaukh\laba 6\array.h
+
+1481578251 source:c:\users\admin\desktop\labs for karnaukh\laba 6\array.cpp
+	"array.h"
+	<iostream>
+
+1481393280 c:\users\admin\desktop\labs for karnaukh\laba 6\miniel.h
+
+1481393280 source:c:\users\admin\desktop\labs for karnaukh\laba 6\miniel.cpp
+	"miniel.h"
+
+1480701992 c:\users\admin\desktop\labs for karnaukh\copyright\copy.h
+
+1481393280 source:c:\users\admin\desktop\labs for karnaukh\laba 6.2.0\miniel.cpp
+	"miniel.h"
+
+1481393280 c:\users\admin\desktop\labs for karnaukh\laba 6.2.0\miniel.h
+
+1482177372 source:c:\users\admin\desktop\labs for karnaukh\laba 6.2.0\array.cpp
+	"array.h"
+	<iostream>
+
+1482177217 c:\users\admin\desktop\labs for karnaukh\laba 6.2.0\array.h
+

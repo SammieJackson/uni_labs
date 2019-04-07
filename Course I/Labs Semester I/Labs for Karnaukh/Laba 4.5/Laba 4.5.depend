@@ -1,0 +1,40 @@
+# depslib dependency file v1.0
+1480178073 source:c:\users\admin\desktop\laba 4.5\func.cpp
+	"func.h"
+	<cmath>
+
+1480177819 c:\users\admin\desktop\laba 4.5\func.h
+
+1480177819 source:c:\users\admin\desktop\laba 4.5\main.cpp
+	<iomanip>
+	"func.h"
+	<cmath>
+	<iostream>
+
+1480702190 source:c:\users\admin\desktop\labs i semester\laba 4.5\main.cpp
+	<iomanip>
+	"func.h"
+	<cmath>
+	<iostream>
+
+1481359619 c:\users\admin\desktop\labs i semester\laba 4.5\func.h
+
+1480702190 source:c:\users\admin\desktop\labs i semester\laba 4.5\func.cpp
+	"func.h"
+	<cmath>
+
+1481359619 source:c:\users\admin\desktop\labs for karnaukh\laba 4.5\main.cpp
+	"copy.h"
+	<iomanip>
+	"func.h"
+	<cmath>
+	<iostream>
+
+1480701992 c:\users\admin\desktop\labs for karnaukh\copyright\copy.h
+
+1481394934 c:\users\admin\desktop\labs for karnaukh\laba 4.5\func.h
+
+1481394934 source:c:\users\admin\desktop\labs for karnaukh\laba 4.5\func.cpp
+	"func.h"
+	<cmath>
+

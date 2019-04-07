@@ -1,0 +1,292 @@
+# depslib dependency file v1.0
+1494491394 source:c:\users\admin\desktop\labs semester ii\text (vanya)\builder.cpp
+	"builder.h"
+	<cctype>
+	<cstdlib>
+	<stdexcept>
+	"myExceptions.h"
+
+1494490024 c:\users\admin\desktop\labs semester ii\text (vanya)\builder.h
+	"container.h"
+	"lexxer.h"
+	<fstream>
+
+1494490088 c:\users\admin\desktop\labs semester ii\text (vanya)\container.h
+	<string>
+
+1494489962 c:\users\admin\desktop\labs semester ii\text (vanya)\lexxer.h
+	<string>
+
+1494491294 c:\users\admin\desktop\labs semester ii\text (vanya)\myexceptions.h
+	<exception>
+	<string>
+
+1494517296 source:c:\users\admin\desktop\labs semester ii\text (vanya)\container.cpp
+	"container.h"
+	"myExceptions.h"
+	"tostring.h"
+	<iostream>
+	<ostream>
+	<fstream>
+
+1494517230 c:\users\admin\desktop\labs semester ii\text (vanya)\tostring.h
+	<string>
+
+1494491505 source:c:\users\admin\desktop\labs semester ii\text (vanya)\interface.cpp
+	<iostream>
+	<string>
+
+1494491343 source:c:\users\admin\desktop\labs semester ii\text (vanya)\lexxer.cpp
+	"lexxer.h"
+
+1494517334 source:c:\users\admin\desktop\labs semester ii\text (vanya)\myexceptions.cpp
+	"myExceptions.h"
+	"tostring.h"
+
+1494517275 source:c:\users\admin\desktop\labs semester ii\text (vanya)\tostring.cpp
+	<string>
+	<limits>
+	<cstdio>
+	"tostring.h"
+
+1494949712 source:c:\users\admin\desktop\labs semester ii\text (v.4) 0.1\builder.cpp
+	"builder.h"
+	<cctype>
+	<cstdlib>
+	<stdexcept>
+	"myExceptions.h"
+
+1494949712 c:\users\admin\desktop\labs semester ii\text (v.4) 0.1\builder.h
+	"container.h"
+	"lexxer.h"
+	<fstream>
+
+1494950517 c:\users\admin\desktop\labs semester ii\text (v.4) 0.1\container.h
+	<string>
+
+1494489962 c:\users\admin\desktop\labs semester ii\text (v.4) 0.1\lexxer.h
+	<string>
+
+1494883033 c:\users\admin\desktop\labs semester ii\text (v.4) 0.1\myexceptions.h
+	<exception>
+	<string>
+
+1494950217 source:c:\users\admin\desktop\labs semester ii\text (v.4) 0.1\container.cpp
+	"container.h"
+	"myExceptions.h"
+	"tostring.h"
+	<iostream>
+	<ostream>
+	<fstream>
+
+1494517230 c:\users\admin\desktop\labs semester ii\text (v.4) 0.1\tostring.h
+	<string>
+
+1494491505 source:c:\users\admin\desktop\labs semester ii\text (v.4) 0.1\interface.cpp
+	<iostream>
+	<string>
+
+1494950225 source:c:\users\admin\desktop\labs semester ii\text (v.4) 0.1\main.cpp
+	"interface.h"
+	"builder.h"
+	<windows.h>
+	"myExceptions.h"
+	<iostream>
+
+1494491236 c:\users\admin\desktop\labs semester ii\text (v.4) 0.1\interface.h
+	<string>
+
+1494517334 source:c:\users\admin\desktop\labs semester ii\text (v.4) 0.1\myexceptions.cpp
+	"myExceptions.h"
+	"tostring.h"
+
+1494517275 source:c:\users\admin\desktop\labs semester ii\text (v.4) 0.1\tostring.cpp
+	<string>
+	<limits>
+	<cstdio>
+	"tostring.h"
+
+1494882679 source:c:\users\admin\desktop\labs semester ii\text (v.4) 0.1\lexxer.cpp
+	"lexxer.h"
+
+1494491505 source:c:\users\admin\desktop\labs semester ii\text (v.4) 0.1.5\interface.cpp
+	<iostream>
+	<string>
+
+1494517334 source:c:\users\admin\desktop\labs semester ii\text (v.4) 0.1.5\myexceptions.cpp
+	"myExceptions.h"
+	"tostring.h"
+
+1494883033 c:\users\admin\desktop\labs semester ii\text (v.4) 0.1.5\myexceptions.h
+	<exception>
+	<string>
+
+1494517230 c:\users\admin\desktop\labs semester ii\text (v.4) 0.1.5\tostring.h
+	<string>
+
+1494517275 source:c:\users\admin\desktop\labs semester ii\text (v.4) 0.1.5\tostring.cpp
+	<string>
+	<limits>
+	<cstdio>
+	"tostring.h"
+
+1496322858 source:c:\users\admin\desktop\labs semester ii\text (v.4) 0.1.5\builder.cpp
+	<cctype>
+	<cstdlib>
+	<sstream>
+	<stdexcept>
+	"tostring.h"
+	"builder.h"
+	"myExceptions.h"
+
+1496322743 c:\users\admin\desktop\labs semester ii\text (v.4) 0.1.5\builder.h
+	"container.h"
+	"lexxer.h"
+	<fstream>
+
+1496329669 c:\users\admin\desktop\labs semester ii\text (v.4) 0.1.5\container.h
+	<string>
+
+1494489962 c:\users\admin\desktop\labs semester ii\text (v.4) 0.1.5\lexxer.h
+	<string>
+
+1496159071 source:c:\users\admin\desktop\labs semester ii\text (v.4) 0.1.5\lexxer.cpp
+	"lexxer.h"
+
+1496155230 source:c:\users\admin\desktop\labs semester ii\text (v.4) 0.1.5\main.cpp
+	"interface.h"
+	"builder.h"
+	<windows.h>
+	"myExceptions.h"
+	<iostream>
+
+1494491236 c:\users\admin\desktop\labs semester ii\text (v.4) 0.1.5\interface.h
+	<string>
+
+1494491505 source:c:\users\admin\desktop\labs semester ii\text (v.4) 0.1.5 Ч копи€\interface.cpp
+	<iostream>
+	<string>
+
+1496159071 source:c:\users\admin\desktop\labs semester ii\text (v.4) 0.1.5 Ч копи€\lexxer.cpp
+	"lexxer.h"
+
+1494489962 c:\users\admin\desktop\labs semester ii\text (v.4) 0.1.5 Ч копи€\lexxer.h
+	<string>
+
+1496155230 source:c:\users\admin\desktop\labs semester ii\text (v.4) 0.1.5 Ч копи€\main.cpp
+	"interface.h"
+	"builder.h"
+	<windows.h>
+	"myExceptions.h"
+	<iostream>
+
+1494491236 c:\users\admin\desktop\labs semester ii\text (v.4) 0.1.5 Ч копи€\interface.h
+	<string>
+
+1496322743 c:\users\admin\desktop\labs semester ii\text (v.4) 0.1.5 Ч копи€\builder.h
+	"container.h"
+	"lexxer.h"
+	<fstream>
+
+1496332260 c:\users\admin\desktop\labs semester ii\text (v.4) 0.1.5 Ч копи€\container.h
+	<string>
+
+1494883033 c:\users\admin\desktop\labs semester ii\text (v.4) 0.1.5 Ч копи€\myexceptions.h
+	<exception>
+	<string>
+
+1494517334 source:c:\users\admin\desktop\labs semester ii\text (v.4) 0.1.5 Ч копи€\myexceptions.cpp
+	"myExceptions.h"
+	"tostring.h"
+
+1494517230 c:\users\admin\desktop\labs semester ii\text (v.4) 0.1.5 Ч копи€\tostring.h
+	<string>
+
+1494517275 source:c:\users\admin\desktop\labs semester ii\text (v.4) 0.1.5 Ч копи€\tostring.cpp
+	<string>
+	<limits>
+	<cstdio>
+	"tostring.h"
+
+1496332032 source:c:\users\admin\desktop\labs semester ii\text (v.4) 0.1.5 Ч копи€\builder.cpp
+	<cctype>
+	<cstdlib>
+	<sstream>
+	<stdexcept>
+	"tostring.h"
+	"builder.h"
+	"myExceptions.h"
+
+1496332229 source:c:\users\admin\desktop\labs semester ii\text (v.4) 0.1.5 Ч копи€\container.cpp
+	<sstream>
+	<iostream>
+	<ostream>
+	<fstream>
+	"container.h"
+	"myExceptions.h"
+	"tostring.h"
+
+1496591995 source:c:\users\admin\desktop\labs semester ii\text\text (v.4) 0.1.5 Ч копи€\container.cpp
+	<sstream>
+	<iostream>
+	<ostream>
+	<fstream>
+	"container.h"
+	"myExceptions.h"
+	"tostring.h"
+
+1496391249 c:\users\admin\desktop\labs semester ii\text\text (v.4) 0.1.5 Ч копи€\container.h
+	<string>
+
+1494883033 c:\users\admin\desktop\labs semester ii\text\text (v.4) 0.1.5 Ч копи€\myexceptions.h
+	<exception>
+	<string>
+
+1494517230 c:\users\admin\desktop\labs semester ii\text\text (v.4) 0.1.5 Ч копи€\tostring.h
+	<string>
+
+1494491505 source:c:\users\admin\desktop\labs semester ii\text\text (v.4) 0.1.5 Ч копи€\interface.cpp
+	<iostream>
+	<string>
+
+1496159071 source:c:\users\admin\desktop\labs semester ii\text\text (v.4) 0.1.5 Ч копи€\lexxer.cpp
+	"lexxer.h"
+
+1494489962 c:\users\admin\desktop\labs semester ii\text\text (v.4) 0.1.5 Ч копи€\lexxer.h
+	<string>
+
+1496391249 source:c:\users\admin\desktop\labs semester ii\text\text (v.4) 0.1.5 Ч копи€\main.cpp
+	"interface.h"
+	"builder.h"
+	<windows.h>
+	"myExceptions.h"
+	<iostream>
+
+1494491236 c:\users\admin\desktop\labs semester ii\text\text (v.4) 0.1.5 Ч копи€\interface.h
+	<string>
+
+1496322743 c:\users\admin\desktop\labs semester ii\text\text (v.4) 0.1.5 Ч копи€\builder.h
+	"container.h"
+	"lexxer.h"
+	<fstream>
+
+1494517334 source:c:\users\admin\desktop\labs semester ii\text\text (v.4) 0.1.5 Ч копи€\myexceptions.cpp
+	"myExceptions.h"
+	"tostring.h"
+
+1494517275 source:c:\users\admin\desktop\labs semester ii\text\text (v.4) 0.1.5 Ч копи€\tostring.cpp
+	<string>
+	<limits>
+	<cstdio>
+	"tostring.h"
+
+1496591772 source:c:\users\admin\desktop\labs semester ii\text\text (v.4) 0.1.5 Ч копи€\builder.cpp
+	<cctype>
+	<cstdlib>
+	<sstream>
+	<stdexcept>
+	<iostream>
+	"tostring.h"
+	"builder.h"
+	"myExceptions.h"
+
