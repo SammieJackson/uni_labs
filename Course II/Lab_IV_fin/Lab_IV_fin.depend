@@ -1,0 +1,51 @@
+# depslib dependency file v1.0
+1512041993 source:c:\users\admin\documents\mydocs\uni\course ii\oop\lab_iv_fin\main.cpp
+	"freeglut.h"
+	<iostream>
+	<time.h>
+	"Kirpatrick.h"
+	"Graham.h"
+	"Andrew_Jarv.h"
+	"Recursive.h"
+
+1509099733 c:\users\admin\documents\mydocs\uni\course ii\oop\lab_iv_fin\freeglut.h
+	"freeglut_std.h"
+	"freeglut_ext.h"
+
+1509099733 c:\users\admin\documents\mydocs\uni\course ii\oop\lab_iv_fin\freeglut_std.h
+	<windows.h>
+	<EGL/egl.h>
+	<GLES/gl.h>
+	<GLES2/gl2.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<stdlib.h>
+
+1509099733 c:\users\admin\documents\mydocs\uni\course ii\oop\lab_iv_fin\freeglut_ext.h
+	<stdarg.h>
+
+1512034768 c:\users\admin\documents\mydocs\uni\course ii\oop\lab_iv_fin\kirpatrick.h
+	"MyPoint.h"
+	<vector>
+	<algorithm>
+
+1512034611 c:\users\admin\documents\mydocs\uni\course ii\oop\lab_iv_fin\mypoint.h
+
+1512034901 c:\users\admin\documents\mydocs\uni\course ii\oop\lab_iv_fin\graham.h
+	<iostream>
+	<stack>
+	<vector>
+	<stdlib.h>
+	"MyPoint.h"
+
+1511805516 c:\users\admin\documents\mydocs\uni\course ii\oop\lab_iv_fin\andrew_jarv.h
+	<algorithm>
+	"MyPoint.h"
+
+1512035037 c:\users\admin\documents\mydocs\uni\course ii\oop\lab_iv_fin\recursive.h
+	"MyPoint.h"
+	<vector>
+	<algorithm>
+

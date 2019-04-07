@@ -1,0 +1,183 @@
+# depslib dependency file v1.0
+1509793092 source:c:\users\admin\documents\mydocs\education\cs\c++\gl\voronoidgl\vmath.c
+	<math.h>
+	"vmath.h"
+
+1509793092 c:\users\admin\documents\mydocs\education\cs\c++\gl\voronoidgl\vmath.h
+	"vmath.inl"
+
+1509793092 c:\users\admin\documents\mydocs\education\cs\c++\gl\voronoidgl\vmath.inl
+
+1510078330 source:c:\users\admin\documents\mydocs\education\cs\c++\gl\voronoidgl\voronoi.cpp
+	"Voronoi.h"
+	<iostream>
+	<algorithm>
+	<set>
+
+1510078167 c:\users\admin\documents\mydocs\education\cs\c++\gl\voronoidgl\voronoi.h
+	<list>
+	<queue>
+	<set>
+	"VPoint.h"
+	"VEdge.h"
+	"VParabola.h"
+	"VEvent.h"
+	<functional>
+
+1509793092 c:\users\admin\documents\mydocs\education\cs\c++\gl\voronoidgl\vpoint.h
+
+1509793092 c:\users\admin\documents\mydocs\education\cs\c++\gl\voronoidgl\vedge.h
+	"Vpoint.h"
+	<iostream>
+
+1510074105 c:\users\admin\documents\mydocs\education\cs\c++\gl\voronoidgl\vparabola.h
+	"VPoint.h"
+	"VEdge.h"
+
+1509793092 c:\users\admin\documents\mydocs\education\cs\c++\gl\voronoidgl\vevent.h
+	<iostream>
+	"VPoint.h"
+	"VParabola.h"
+
+1510074105 source:c:\users\admin\documents\mydocs\education\cs\c++\gl\voronoidgl\vparabola.cpp
+	"VParabola.h"
+	"VPoint.h"
+
+1510079003 source:c:\users\admin\documents\mydocs\education\cs\c++\gl\voronoidgl\main.cpp
+	<GL/glew.h>
+	<GL/glut.h>
+	<iostream>
+	<math.h>
+	<algorithm>
+	<time.h>
+	"Voronoi.h"
+	"VPoint.h"
+	<GL/glew.h>
+	<GL/glut.h>
+	<iostream>
+	<math.h>
+	<algorithm>
+	<GLUT/glut.h>
+	<GL/glut.h>
+	<stdlib.h>
+
+1509099733 c:\opengl\freeglut\freeglut-3.0.0-mingw\freeglut\include\gl\glut.h
+	"freeglut_std.h"
+
+1509099733 c:\opengl\freeglut\freeglut-3.0.0-mingw\freeglut\include\gl\freeglut_std.h
+	<windows.h>
+	<EGL/egl.h>
+	<GLES/gl.h>
+	<GLES2/gl2.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<stdlib.h>
+
+1510918309 source:c:\users\admin\documents\mydocs\uni\course ii\oop\voronoidgl\main.cpp
+	<GL/glew.h>
+	<GL/glut.h>
+	<iostream>
+	<math.h>
+	<algorithm>
+	<time.h>
+	"Voronoi.h"
+	"VPoint.h"
+	<GL/glew.h>
+	<GL/glut.h>
+	<iostream>
+	<math.h>
+	<algorithm>
+	<GLUT/glut.h>
+	<GL/glut.h>
+	<stdlib.h>
+
+1510078167 c:\users\admin\documents\mydocs\uni\course ii\oop\voronoidgl\voronoi.h
+	<list>
+	<queue>
+	<set>
+	"VPoint.h"
+	"VEdge.h"
+	"VParabola.h"
+	"VEvent.h"
+	<functional>
+
+1509793092 c:\users\admin\documents\mydocs\uni\course ii\oop\voronoidgl\vpoint.h
+
+1510214454 c:\users\admin\documents\mydocs\uni\course ii\oop\voronoidgl\vedge.h
+	"Vpoint.h"
+	<iostream>
+
+1510074105 c:\users\admin\documents\mydocs\uni\course ii\oop\voronoidgl\vparabola.h
+	"VPoint.h"
+	"VEdge.h"
+
+1510164016 c:\users\admin\documents\mydocs\uni\course ii\oop\voronoidgl\vevent.h
+	<iostream>
+	"VPoint.h"
+	"VParabola.h"
+
+1510163902 source:c:\users\admin\documents\mydocs\uni\course ii\oop\voronoidgl\voronoi.cpp
+	"Voronoi.h"
+	<iostream>
+	<algorithm>
+	<set>
+
+1510074105 source:c:\users\admin\documents\mydocs\uni\course ii\oop\voronoidgl\vparabola.cpp
+	"VParabola.h"
+	"VPoint.h"
+
+1511523753 source:c:\users\admin\documents\mydocs\uni\course ii\voronoidgl\main.cpp
+	<GL/glew.h>
+	<GL/glut.h>
+	<iostream>
+	<math.h>
+	<algorithm>
+	<time.h>
+	"Voronoi.h"
+	"VPoint.h"
+	<GL/glew.h>
+	<GL/glut.h>
+	<iostream>
+	<math.h>
+	<algorithm>
+	<GLUT/glut.h>
+	<GL/glut.h>
+	<stdlib.h>
+
+1510081767 c:\users\admin\documents\mydocs\uni\course ii\voronoidgl\voronoi.h
+	<list>
+	<queue>
+	<set>
+	"VPoint.h"
+	"VEdge.h"
+	"VParabola.h"
+	"VEvent.h"
+	<functional>
+
+1509796692 c:\users\admin\documents\mydocs\uni\course ii\voronoidgl\vpoint.h
+
+1510218054 c:\users\admin\documents\mydocs\uni\course ii\voronoidgl\vedge.h
+	"Vpoint.h"
+	<iostream>
+
+1510077705 c:\users\admin\documents\mydocs\uni\course ii\voronoidgl\vparabola.h
+	"VPoint.h"
+	"VEdge.h"
+
+1510167616 c:\users\admin\documents\mydocs\uni\course ii\voronoidgl\vevent.h
+	<iostream>
+	"VPoint.h"
+	"VParabola.h"
+
+1510167502 source:c:\users\admin\documents\mydocs\uni\course ii\voronoidgl\voronoi.cpp
+	"Voronoi.h"
+	<iostream>
+	<algorithm>
+	<set>
+
+1510077705 source:c:\users\admin\documents\mydocs\uni\course ii\voronoidgl\vparabola.cpp
+	"VParabola.h"
+	"VPoint.h"
+

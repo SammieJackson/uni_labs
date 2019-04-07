@@ -1,0 +1,24 @@
+# depslib dependency file v1.0
+1505062927 source:c:\users\admin\desktop\uni\course ii\oop\lab_i\main.cpp
+	<iostream>
+	"generators.h"
+	"distributions.h"
+
+1505047782 c:\users\admin\desktop\uni\course ii\oop\lab_i\generators.h
+	<cmath>
+	<stdlib.h>
+	<iomanip>
+	"helpy_handy.h"
+
+1504869202 c:\users\admin\desktop\uni\course ii\oop\lab_i\helpy_handy.h
+	<iostream>
+
+1504800489 c:\users\admin\desktop\uni\course ii\oop\lab_i\functions.h
+	<cmath>
+	<stdlib.h>
+	<iomanip>
+	"helpy_handy.h"
+
+1505397233 c:\users\admin\desktop\uni\course ii\oop\lab_i\distributions.h
+	"generators.h"
+

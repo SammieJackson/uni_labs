@@ -1,0 +1,69 @@
+# depslib dependency file v1.0
+1509638654 source:c:\users\admin\desktop\uni\course ii\oop\lab_ii\main.cpp
+	<stdio.h>
+	<windows.h>
+	"float_long.h"
+	"binary_algos.h"
+
+1505381037 c:\users\admin\desktop\uni\course ii\oop\lab_ii\long_nums.h
+	<iostream>
+	<cmath>
+	<string>
+	<sstream>
+	<ctype.h>
+
+1509607514 c:\users\admin\desktop\uni\course ii\oop\lab_ii\longs.h
+	"help_hand.h"
+
+1509386916 c:\users\admin\desktop\uni\course ii\oop\lab_ii\help_hand.h
+	<math.h>
+	<cmath>
+	<iostream>
+	<complex>
+	<vector>
+	<string>
+	<sstream>
+	<ctype.h>
+
+1509639137 c:\users\admin\desktop\uni\course ii\oop\lab_ii\algos.h
+	"help_hand.h"
+	"longs.h"
+
+1506805360 c:\users\admin\desktop\uni\course ii\oop\lab_ii\longs_fin.h
+	"algos.h"
+
+1509638884 c:\users\admin\desktop\uni\course ii\oop\lab_ii\float_long.h
+	"algos.h"
+
+1509638884 c:\users\admin\desktop\uni\course ii\oop\lab_ii\binary_algos.h
+	"float_long.h"
+
+1512140252 source:c:\users\admin\documents\mydocs\uni\course ii\oop\lab_ii\main.cpp
+	<stdio.h>
+	<windows.h>
+	"float_long.h"
+	"binary_algos.h"
+
+1510237895 c:\users\admin\documents\mydocs\uni\course ii\oop\lab_ii\float_long.h
+	"algos.h"
+
+1512140649 c:\users\admin\documents\mydocs\uni\course ii\oop\lab_ii\algos.h
+	"help_hand.h"
+	"longs.h"
+
+1512139607 c:\users\admin\documents\mydocs\uni\course ii\oop\lab_ii\help_hand.h
+	<math.h>
+	<cmath>
+	<iostream>
+	<complex>
+	<vector>
+	<string>
+	<sstream>
+	<ctype.h>
+
+1512129462 c:\users\admin\documents\mydocs\uni\course ii\oop\lab_ii\longs.h
+	"help_hand.h"
+
+1512139607 c:\users\admin\documents\mydocs\uni\course ii\oop\lab_ii\binary_algos.h
+	"float_long.h"
+
